@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "BudgetWise",
+    "slug": "budgetwise",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/BudgetWiseLogo.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/BudgetWiseLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.budgetwise.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/BudgetWiseLogo.png",
+        "backgroundColor": "#4A90E2"
+      },
+      "package": "com.budgetwise.app",
+      "versionCode": 3,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_WIFI_STATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-mail-composer"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5c52886b-b4ab-4e15-bb09-ddbe17d2f22f"
+      }
+    }
+  }
+}

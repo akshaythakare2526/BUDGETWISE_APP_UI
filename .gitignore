@@ -1,0 +1,128 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Editor/OS
+.vscode/
+Thumbs.db
+
+# Environment variables
+.env
+
+# Android/iOS builds (commented out if you want to include them)
+android/
+ios/
+
+# ========================================
+# PROJECT-SPECIFIC FILES TO IGNORE
+# ========================================
+
+# Build and Binary Files
+*.apk
+*.aab
+*.ipa
+BudgetWise-Fixed-Firebase.apk
+
+# Build Scripts and Test Files
+build-and-rename.bat
+build-apk-custom.bat
+build-apk.bat
+build-apk.sh
+build-with-diagnostics.bat
+download-and-rename.bat
+download-latest-apk.bat
+test-backend-api.js
+test-backend-auth.js
+test-setup.bat
+update-build-names.bat
+verify-firebase-setup.ps1
+verify-firebase-setup.sh
+verify-setup.ps1
+
+# Development Documentation (Internal)
+API_TESTING_GUIDE.md
+APP_ICON_SETUP.md
+AUTHENTICATION_TOKEN_FIX_COMPLETE.md
+AVATAR_COLOR_CUSTOMIZATION_COMPLETE.md
+AVATAR_DEFAULT_COLOR_FIX.md
+AVATAR_ENHANCEMENT_COMPLETE.md
+AVATAR_LOCAL_STORAGE_COMPLETE.md
+BUILD_GUIDE.md
+CLEAN_ARCHITECTURE.md
+COLOR_PICKER_LAYOUT_FIX.md
+COLOR_PICKER_LAYOUT_REFINEMENT.md
+COLOR_PICKER_PREVIEW_ENHANCEMENT.md
+CONTEXT_TOKEN_IMPLEMENTATION_COMPLETE.md
+CUSTOM_APK_NAMING.md
+DEPOSIT_CRUD_COMPLETION.md
+DUPLICATE_KEY_ENHANCED_FIX.md
+DUPLICATE_KEY_FIX_COMPLETE.md
+EDIT_PROFILE_AVATAR_INTEGRATION.md
+EMAIL_VERIFICATION_IMPLEMENTATION_COMPLETE.md
+ENHANCED_TRANSACTION_UI_FEATURES.md
+EXPORT_DATA_IMPLEMENTATION.md
+GITHUB_PUSH_GUIDE.md
+KEYBOARD_BACKGROUND_FIX_COMPLETE.md
+LOGIN_SUCCESS_GUIDE.md
+LOGIN_SYSTEM_SUCCESS.md
+LOGOUT_FIX_COMPLETE.md
+NETWORK_TROUBLESHOOTING.md
+OFFLINE_CATEGORIES_ANALYTICS_IMPLEMENTATION.md
+OFFLINE_FUNCTIONALITY_IMPLEMENTATION.md
+OFFLINE_IMPLEMENTATION_SUCCESS.md
+PROFILE_TEXT_ERROR_FIX.md
+README_API_INTEGRATION.md
+RESET_PASSWORD_FUNCTIONALITY_ANALYSIS.md
+SERVER_404_TROUBLESHOOTING.md
+SIGNUP_BACKEND_CODE.md
+SPLASH_SCREEN_IMPLEMENTATION.md
+STATUS_BAR_GUIDE.md
+TIME_STATUS_ENHANCEMENT.md
+UI_REDESIGN_COMPLETE.md
+WHITE_OVERLAY_FIX_COMPLETE.md
+
+# Firebase Config Backups
+google-services.json.backup
+
+# Empty Development Folders
+.alpackages/
+.snapshots/
+
+# Package locks (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock

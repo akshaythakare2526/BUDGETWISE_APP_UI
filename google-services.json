@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "937269845608",
+    "project_id": "budgetwise-1e953",
+    "storage_bucket": "budgetwise-1e953.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937269845608:android:708584908460118bc6a5dd",
+        "android_client_info": {
+          "package_name": "com.budgetwise.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937269845608-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW0BOFrx-8mPPr0MvkASLSktwPzGLFLqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
